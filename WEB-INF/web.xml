@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+<servlet>
+            <servlet-name>Appetizers</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Appetizers
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Appetizers</servlet-name>
+            <url-pattern>/Appetizers</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>Salads</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Salads
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Salads</servlet-name>
+            <url-pattern>/Salads</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Soups</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Soups
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Soups</servlet-name>
+            <url-pattern>/Soups</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Pizzas</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Pizzas
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Pizzas</servlet-name>
+            <url-pattern>/Pizzas</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Pastas</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Pastas
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Pastas</servlet-name>
+            <url-pattern>/Pastas</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Strudels</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Strudels
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Strudels</servlet-name>
+            <url-pattern>/Strudels</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>GiftCard</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		GiftCard
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>GiftCard</servlet-name>
+            <url-pattern>/GiftCard</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>SpecialMenu</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		SpecialMenu
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>SpecialMenu</servlet-name>
+            <url-pattern>/SpecialMenu</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Desserts</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Desserts
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Desserts</servlet-name>
+            <url-pattern>/Desserts</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Beverages</servlet-name>
+            <servlet-class>Menu</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		category
+         		 </param-name>
+          		<param-value>
+            		Beverages
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>Beverages</servlet-name>
+            <url-pattern>/Beverages</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>ContactUs</servlet-name>
+            <servlet-class>FooterContent</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		content
+         		 </param-name>
+          		<param-value>
+            		ContactUs
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>ContactUs</servlet-name>
+            <url-pattern>/ContactUs</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>FeedBack</servlet-name>
+            <servlet-class>FooterContent</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		content
+         		 </param-name>
+          		<param-value>
+            		FeedBack
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>FeedBack</servlet-name>
+            <url-pattern>/FeedBack</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>SubmitFeedBack</servlet-name>
+            <servlet-class>SubmitFeedBack</servlet-class>
+       
+       </servlet>
+        <servlet-mapping>
+            <servlet-name>SubmitFeedBack</servlet-name>
+            <url-pattern>/SubmitFeedBack</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>FAQ</servlet-name>
+            <servlet-class>FooterContent</servlet-class>
+       
+    <init-param>
+          		<param-name>
+            		content
+         		 </param-name>
+          		<param-value>
+            		faq1
+          		</param-value>
+     </init-param>
+    
+     </servlet>
+        <servlet-mapping>
+            <servlet-name>FAQ</servlet-name>
+            <url-pattern>/FAQ</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>OrderPage</servlet-name>
+            <servlet-class>OrderPage</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>OrderPage</servlet-name>
+            <url-pattern>/OrderPage</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>Buy</servlet-name>
+            <servlet-class>Buy</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>Buy</servlet-name>
+            <url-pattern>/Buy</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>DeleteCartItem</servlet-name>
+            <servlet-class>DeleteCartItem</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>DeleteCartItem</servlet-name>
+            <url-pattern>/DeleteCartItem</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>ManageCustomers</servlet-name>
+            <servlet-class>ManageCustomers</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>ManageCustomers</servlet-name>
+            <url-pattern>/ManageCustomers</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>ManageRestaurant</servlet-name>
+            <servlet-class>ManageRestaurant</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>ManageRestaurant</servlet-name>
+            <url-pattern>/ManageRestaurant</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+            <servlet-name>AutoCompleteServlet</servlet-name>
+            <servlet-class>AutoCompleteServlet</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>AutoCompleteServlet</servlet-name>
+            <url-pattern>/autocomplete</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>error</servlet-name>
+            <servlet-class>error</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>error</servlet-name>
+            <url-pattern>/error</url-pattern>
+        </servlet-mapping>
+		<servlet>
+            <servlet-name>ProductData</servlet-name>
+            <servlet-class>ProductData</servlet-class>
+      
+         </servlet>
+        <servlet-mapping>
+            <servlet-name>ProductData</servlet-name>
+            <url-pattern>/ProductData</url-pattern>
+        </servlet-mapping>
+</web-app>
