@@ -32,12 +32,14 @@ table. It is not possible to book an already reserved table on the same day and
 
 same time.
 
+ View Reservation-This lets the user to view the reservation they have made 
+
+including the history of their reservations.
+
  Cancel Reservation-To cancel reservation the user must enter the required 
 
 fields. The user will be able to cancel the reservation up to 10 minutes before 
 
 the actual table reserved time.
 
- View Reservation-This lets the user to view the reservation they have made 
 
-including the history of their reservations.
